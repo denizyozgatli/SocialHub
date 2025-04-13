@@ -94,6 +94,7 @@ img.profile {
 .links a.linkedin  { background: #004182; border: 2px solid #004182; }
 .links a.bluesky   { background: #b9e2f5; border: 2px solid #b9e2f5; color: #000; }
 .links a.website   { background: #ffffe7; border: 2px solid #ffffc7; color: #000; }
+.links a.huggingface   { background: #FF9D00; border: 2px solid #FF9D00; }
 
 /* email icon */
 .email-icon {
