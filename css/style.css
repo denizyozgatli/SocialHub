@@ -1,0 +1,133 @@
+/* main */
+body {
+  background: linear-gradient(135deg, #0c0f16, #192c33, #284c5d);
+  color: white;
+  text-align: center;
+  padding: 20px;
+  font-family: 'Poppins', sans-serif;
+  box-sizing: border-box;
+  overflow-wrap: break-word;
+  word-break: break-word;
+  flex-wrap: nowrap;
+}
+
+h1 {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 2.5rem;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+/* effect */
+#effect-text {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 2.5rem;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 2.5px solid rgb(255, 255, 255);
+  display: inline-block;
+  text-align: center;
+  visibility: hidden;
+}
+
+.tagline {
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 1.2rem;
+  color: #ccc;
+}
+
+.bio {
+  font-family: 'Inter', sans-serif;
+  font-size: 1rem;
+  line-height: 1.6;
+  text-align: center;
+  color: #ffffff;
+  margin-top: 20px;
+}
+
+/* profile photo */
+img.profile {
+  width: 128px;
+  height: 128px;
+  border-radius: 50%;
+  border: 3px solid #ffffff;
+  margin-top: 20px;
+}
+
+/* link box */
+.links a {
+  display: block;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin: 10px auto;
+  padding: 12px 20px;
+  border-radius: 15px;
+  text-decoration: none;
+  font-weight: bold;
+  width: 80%;
+  max-width: 400px;
+  box-sizing: border-box;
+  transition: transform 0.2s ease, background 0.2s ease, border-color 0.2s ease;
+  color: rgb(255, 255, 255);
+}
+
+/* hover effect */
+.links a:hover {
+  transform: scale(1.1);
+}
+
+/* icons */
+.links img.icon {
+  width: 22px;
+  height: 22px;
+  vertical-align: middle;
+  flex-shrink: 0;
+  margin-right: 10px;
+}
+
+/* box colors */
+.links a.github    { background: #24292e; border: 2px solid #24292e; }
+.links a.kaggle    { background: #0088ff; border: 2px solid #0088ff; }
+.links a.instagram { background: #aa2cc0; border: 2px solid #aa2cc0; }
+.links a.twitter   { background: #1d9bf0; border: 2px solid #1d9bf0; }
+.links a.linkedin  { background: #004182; border: 2px solid #004182; }
+.links a.bluesky   { background: #b9e2f5; border: 2px solid #b9e2f5; color: #000; }
+.links a.website   { background: #ffffe7; border: 2px solid #ffffc7; color: #000; }
+
+/* email icon */
+.email-icon {
+  margin-top: 30px;
+}
+
+.email-icon img {
+  width: 40px;
+  height: 40px;
+  transition: transform 0.2s ease;
+}
+
+.email-icon img:hover {
+  transform: scale(1.5);
+}
+
+/* footer */
+.footer {
+  background: linear-gradient(135deg, #1b2233, #2f3b52);
+  padding: 20px 0;
+  text-align: center;
+}
+
+.footer-name {
+  color: #ffffff;
+  font-size: 14px;
+}
+
+.footer-year {
+  color: #ffffff;
+  font-size: 14px;
+}
+
+.footer-s {
+  color: #ffffff;
+  font-size: 14px;
+}
